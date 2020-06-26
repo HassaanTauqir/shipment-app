@@ -1,0 +1,43 @@
+@import "variables.scss";
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+
+  &-wrapper {
+    margin: 10px 30px;
+  }
+
+  &-right,
+  &-middle,
+  &-left {
+    h3 {
+      margin: 15px 0 5px;
+      text-transform: uppercase;
+    }
+  }
+  > div {
+    flex: 1;
+    margin: 10px 50px;
+  }
+}
+
+.cargo {
+  &-wrapper {
+    > h4 {
+      margin-bottom: 0px;
+    }
+    > div {
+      margin-left: 30px;
+    }
+  }
+}
+
+.back-link {
+  color: $primary;
+  font-size: 15px;
+
+  &-wrapper {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,17 @@
+@import "./variables.scss";
+
+.grid {
+  height: 351px;
+  width: 100%;
+}
+
+.details-btn {
+  background-color: $primary;
+  border-color: $primary;
+  border-radius: 10px;
+  border-style: none;
+  color: $color-light;
+  height: 20px;
+  line-height: 0.5;
+  padding: 1px 10px;
+}

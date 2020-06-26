@@ -1,0 +1,37 @@
+@import "./variables.scss";
+
+$animation: loader 2s linear infinite;
+
+.loader {
+  -webkit-animation: $animation;
+  animation: $animation;
+  border: 10px solid $primary;
+  border-bottom: 10px solid transparent;
+  border-radius: 50%;
+  bottom: 0;
+  height: 120px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 120px;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
